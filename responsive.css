@@ -1,0 +1,45 @@
+@media (max-width: 1020px){
+    .about-details{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .about-image-pure {
+        all: unset;
+        max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    max-height: 800px; /* Set a maximum height if needed */
+    }
+      
+    .about-pic{
+        all:unset;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .about-txt{
+        max-width: 70vw;
+
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 690px){
+    nav{
+        visibility: hidden;
+    }
+    h1{
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 5px;
+    
+    }
+    .landing-text > p{
+        font-size: 1.5rem;
+        margin: 10px 0px;
+        text-align: center;
+        line-height: 40px;
+    }
+}

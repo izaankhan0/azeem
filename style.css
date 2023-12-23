@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    /* overflow: hidden; */
+    color: white;
+
+}
+.container{
+    background-color: black;
+    width: 100%;
+    /* height: 1000vh; */
+    display: flex;
+    justify-content: center;
+}
+.sub-container{
+    /* background-color: blue; */
+    width: 1200px;
+    overflow: hidden;
+    margin: 0px auto;
+    border-left: solid 0.5px rgba(128, 128, 128, 0.5);
+    border-right: solid 0.5px rgba(128, 128, 128, 0.5);
+}
+.landing-page{
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(./images/azeem.png);
+    background-repeat: no-repeat;
+    background-position: center top; /* Adjust position */
+    overflow: hidden;
+    background-size: auto 120%;
+}
+ul > a, .main-li-div > a{
+    text-decoration: none;
+}
+nav{
+    /* background-color: brown; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 15px 11px 4px 11px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: border-bottom 0.5s ease-in-out; /* Use border-bottom for smoother transition */
+    position: relative; /* For pseudo-element positioning */
+}
+/* help code gpt */
+
+nav ul li::after { /* Create an underline with a pseudo-element */
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Adjust the distance from the text */
+    left: 0;
+    width: 0%;
+    border-bottom: 0.5px solid; /* Add the underline style */
+    transition: width 150ms ease-in-out; /* Transition the underline width */
+}
+
+nav ul li:hover::after {
+    width: 100%; /* Display the underline on hover */
+}
+
+/* help code gpt */
+
+#main-li{
+    font-size: 28px;
+    /* padding: 0px 20px; */
+    padding: 0px 10px 0px 10px;
+    margin: 0px 30px;
+    font-weight: 700;
+    margin-top: 2px;
+    cursor: pointer;
+
+}
+.full-stop{
+    color: red;
+    font-weight: 600;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.landing-text{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin: 30vh 0px 5vh 0px;
+    align-items: center;
+
+}
+h1{
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.landing-text > p{
+    font-size: 2rem;
+    margin: 10px 0px;
+    text-align: center;
+    line-height: 45px;
+    padding: 0px 10px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    padding: 30px 0px;
+    text-decoration: underline wavy;
+    text-underline-offset: 30px;
+    text-decoration-skip-ink: 200px; /* Adjusts the length of the underline */
+}
+.about{
+    margin: 30vh 0px;
+}
+.about-image-pure{
+    height: 110vh;
+}
+.about-pic{
+    overflow: hidden;
+    height: 650px;
+}
+.about-details{
+    margin: 80px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.about-txt{
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 300px;
+}
+
+.about-para1{
+    margin-bottom: 35px;
+}
+
+.about-para2{
+    margin-bottom: 35px;
+}
+
+.about-txt > a > button{
+    padding: 16px 32px;
+    background-color: black;
+    border: solid 2px rgb(162, 162, 162);
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 100ms ease-out;
+}
+
+.about-txt > a > button:hover{
+    border: solid 2px rgb(255, 255, 255);
+}
+.line1{
+    width: 1px;
+    height: 1000px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.5);
+    left: 34vw;
+    z-index: -1;
+    
+}
+.line2{
+    width: 1px;
+    height: 1000px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.5);
+    left: 66vw;
+    z-index: -1;
+}
+
+h4{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 32px;
+    text-decoration: underline wavy;
+    text-underline-offset: 25px;
+}
+.services-num{
+    /* background-color: blueviolet; */
+    display: flex;
+    margin: 100px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.services-all{
+    padding: 10px 30px;
+    margin: 0px 10px;
+    width: 25%;
+}
+.service1 > h5, .service3 > h5{
+    padding-bottom: 55px;
+}
+h5{
+    padding: 0px 0px 20px 0px;
+
+    font-size: 29px;
+}
+.services-all > img{
+    width: 70px;
+}
