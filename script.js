@@ -114,10 +114,12 @@ function scrollToTop() {
 
 
 
-const loader = document.querySelector('#preloader')
-window.addEventListener('load',setInterval(function(){
-  loader.style.display="none"
-},2500))
+window.addEventListener('load', function() {
+  const loader = document.querySelector('#preloader');
+  setTimeout(function() {
+    loader.classList.add('preloader-hidden');
+  }, 2000);
+});
 
 
 
