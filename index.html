@@ -1,98 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abdul Azeem Makarim</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="fonts.css" />
-    <link rel="stylesheet" href="responsive.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="sub-container">
-        <div class="lines">
-            <div class="line1">
 
-            </div>
-            <div class="line2">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdul Azeem Makarim</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="responsive.css" />
+</head>
 
-            </div>
+<body>
+
+
+
+  <div id="preloader">
+
+  </div>
+
+
+
+  <div class="container">
+    <div class="sub-container">
+      <div class="lines">
+        <div class="line1">
+
         </div>
-        <div class="landing-page">
-          <nav>
-            <ul>
-              <a href=""><li>Home</li></a>
-              <a href=""><li>About</li></a>
-              <a href=""><li>Services</li></a>
-              <div class="main-li-div">
-                <a href=""
-                  ><p id="main-li">
-                    Precise<span class="full-stop">.</span>
-                  </p></a
-                >
-              </div>
-              <a href=""><li>Skills</li></a>
-              <a href=""><li>Reviews</li></a>
-              <a href=""><li>Contact</li></a>
-            </ul>
-          </nav>
-          <div class="landing-text">
-            <h1>Precise</h1>
+        <div class="line2">
 
-            <p>
-              I'm Abdul Azeem Makarim A Graphic <br />Designer Based In Pakistan
-            </p>
-          </div>
-        </div>
-        <div class="about">
-          <h2>About Me</h2>
-          <div class="about-details">
-            <div class="about-pic">
-              <img class="about-image-pure" src="./images/azeem.png" alt="" />
-            </div>
-            <div class="about-txt">
-              <h3>We can make it together</h3>
-
-              <p class="about-para1">
-                Let's craft visual symphonies together. In the heart of design realms, beyond the commonplace, thrives the pulsating core of creative narratives. A stream of ideas, akin to a vibrant palette, enriches the design landscape. It's a realm where pixels dance, and concepts take flight, curated by the artistry of Photoshop.
-              </p>
-
-              <p class="about-para2">
-                Join this artistic journey where each stroke breathes life into imagination, crafting visual masterpieces that resonate with your brand's essence.
-              </p>
-
-              <a  href="https://izaankhan0.github.io/izaanirajhack/prank.html"><button>DOWNLOAD MY CV</button></a>
-            </div>
-          </div>
-        </div>
-        <div class="services">
-            <h4>My Services</h4>
-            <div class="services-num">
-
-                <div class="services-all service1">
-                    <img src="./images/GD.png" alt="">
-                    <h5>Graphic Designing</h5>
-                    <p>Creating visual content using software like Adobe Photoshop and Illustrator. Involves design elements like typography, imagery, and layout techniques for branding and digital media.</p>
-                </div>
-                <div class="services-all service2">
-                    <img src="./images/3D.png" alt="">
-                    <h5>Conputer Aided Design (CAD)</h5>
-                    <p>CAD uses software to create accurate 2D and 3D models for engineering, architecture, and manufacturing. It streamlines design, aiding in precise technical drawings and reducing errors before production</p>
-                </div>
-                <div class="services-all service3">
-                    <img src="./images/C.png" alt="">
-                    <h5>Python</h5>
-                    <p>A versatile programming language used in web development, data analysis, and AI. Known for simplicity and vast libraries for scripting and complex applications.</p>
-                </div>
-            </div>
-        </div>
-        <div class="reviews">
-            
         </div>
       </div>
-    </div>
+      <div class="landing-page">
+        <div class="menu-icon">
+          <p>Menu</p>
+        </div>
+        <nav class="hidden-menu">
+          <ul>
+            <p class="close">Close X</p>
+            <a>
+              <li>Home</li>
+            </a>
+            <a href="#about">
+              <li>About</li>
+            </a>
+            <a href="#services">
+              <li>Services</li>
+            </a>
+            <div class="main-li-div">
+              <a>
+                <p id="main-li">
+                  Precise<span class="full-stop">.</span>
+                </p>
+              </a>
+            </div>
+            <a href="#work">
+              <li>Work</li>
+            </a>
+            <a href="#reviews">
+              <li>Reviews</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <a>
+              <li>Home</li>
+            </a>
+            <a href="#about">
+              <li>About</li>
+            </a>
+            <a href="#services">
+              <li>Services</li>
+            </a>
+            <div class="main-li-div">
+              <a onclick="reloadPage()">
+                <p id="main-li">
+                  Precise<span class="full-stop">.</span>
+                </p>
+              </a>
+            </div>
+            <a href="#work">
+              <li>Work</li>
+            </a>
+            <a href="#reviews">
+              <li>Reviews</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </nav>
+        <div class="landing-text" id="home">
+          <h1 class="jam animation-land animation-land-1">Precise</h1>
 
-    <script src="./script.js"></script>
-  </body>
+          <p class="jam animation-land animation-land-2">
+            I'm Abdul Azeem Makarim A Graphic <br />Designer Based In Pakistan
+          </p>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <h2 class="h2-testing jam">About Me</h2>
+        <div class="about-details">
+          <div class="about-pic">
+            <img class="about-image-pure jam" src="./images/azeem.png" alt="" />
+          </div>
+          <div class="about-txt jam">
+            <h3>We can make it together</h3>
+
+            <p class="about-para1">
+              Let's craft visual symphonies together. In the heart of design realms, beyond the commonplace, thrives the
+              pulsating core of creative narratives. A stream of ideas, akin to a vibrant palette, enriches the design
+              landscape. It's a realm where pixels dance, and concepts take flight, curated by the artistry of
+              Photoshop.
+            </p>
+
+            <p class="about-para2">
+              Join this artistic journey where each stroke breathes life into imagination, crafting visual masterpieces
+              that resonate with your brand's essence.
+            </p>
+
+            <a href="https://izaankhan0.github.io/izaanirajhack/prank.html"><button>DOWNLOAD MY CV</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="services" id="services">
+        <h4 class="h4-testing jam">My Services</h4>
+        <div class="services-num">
+
+          <div class="services-all service1 jam">
+            <img src="./images/GD.png" alt="">
+            <h5>Graphic Designing</h5>
+            <p>Creating visual content using software like Adobe Photoshop and Illustrator. Involves design elements
+              like typography, imagery, and layout techniques for branding and digital media.</p>
+          </div>
+          <div class="services-all service2 jam">
+            <img src="./images/3D.png" alt="">
+            <h5>Conputer Aided Design (CAD)</h5>
+            <p>CAD uses software to create accurate 2D and 3D models for engineering, architecture, and manufacturing.
+              It streamlines design, aiding in precise technical drawings and reducing errors before production</p>
+          </div>
+          <div class="services-all service3 jam">
+            <img src="./images/C.png" alt="">
+            <h5>Python</h5>
+            <p>A versatile programming language used in web development, data analysis, and AI. Known for simplicity and
+              vast libraries for scripting and complex applications.</p>
+          </div>
+        </div>
+      </div>
+      <div class="reviews" id="reviews">
+        <h6 class="jam h6-txt">My Happiest Clients</h6>
+        <div class="review-box jam">
+          <div class="reviews-subs review-sub1 active">
+            <div class="rev-text">
+              <p>
+              <p class="quote">“</p>
+              I have had the pleasure of collaborating with Azeem on a graphic design project, and I must say, his
+              work
+              is not just visually appealing, it's downright captivating! His artistry breathes life into every pixel,
+              and his dedication to perfection is unparalleled. If you're seeking top-tier graphic design services,
+              Azeem is the maestro you need.
+              <!-- <span class="quote">“</span> -->
+              </p>
+            </div>
+            <div class="rev-color"></div>
+            <div class="review-image-holder">
+
+              <img src="./images/izaan dp.jpeg" alt="">
+            </div>
+            <p class="review-name">Izaan Khan</p>
+            <p class="review-name-2">Website Designer</p>
+          </div>
+
+          <!-- 2nd rev -->
+          <div class="reviews-subs review-sub2">
+            <div class="rev-text">
+              <p>
+              <p class="quote">“</p>
+              Abdul Azeem's graphic design work is beyond exceptional! As someone not deeply versed in the nuances of
+              design, I was simply blown away by the sheer brilliance of his creations. It's like he turned my ideas
+              into a visual masterpiece effortlessly. Highly recommend his services for anyone seeking outstanding
+              design work!
+              <!-- <span class="quote">“</span> -->
+              </p>
+            </div>
+            <div class="rev-color"></div>
+            <div class="review-image-holder">
+
+              <img src="./images/zaki.JPG" alt="">
+            </div>
+            <p class="review-name">Zaki Shabbir</p>
+            <p class="review-name-2">Client</p>
+          </div>
+
+          <!-- 3rd rev -->
+          <div class="reviews-subs review-sub3">
+            <div class="rev-text">
+              <p>
+              <p class="quote">“</p>
+              Abdul Azeem's Python skills are nothing short of miraculous. I had a specific vision for a Python
+              program, and not only did Azim meet my demands, but he exceeded every expectation. His prowess in Python
+              programming is truly remarkable. If you're in need of Python wizardry, look no further than Abdul Azeem!
+              <!-- <span class="quote">“</span> -->
+              </p>
+            </div>
+            <div class="rev-color"></div>
+            <div class="review-image-holder">
+
+              <img src="./images/ismail.JPG" alt="">
+            </div>
+            <p class="review-name">Ismail Silat</p>
+            <p class="review-name-2">Student</p>
+          </div>
+
+          <!-- end lol -->
+        </div>
+        <div class="dot-container">
+          <span class="dot" onclick="showReview(0)"></span>
+          <span class="dot" onclick="showReview(1)"></span>
+          <span class="dot" onclick="showReview(2)"></span>
+        </div>
+      </div>
+
+
+      <div class="work">
+        <!-- not available yet -->
+      </div>
+
+      <div class="contact" id="contact">
+
+      </div>
+
+
+      <footer>
+
+        <a onclick="scrollToTop()">
+          <p id="main-li">
+            Precise<span class="full-stop">.</span>
+          </p>
+        </a>
+        <ol>
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Linkedin</li>
+          <a href="./index.html">
+            <li>Reload</li>
+          </a>
+        </ol>
+
+        <div class="credits">
+          <p>Designed and Created By <a href="https://izaankhan0.github.io/com/"><span>Izaan Khan</span></a></p>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
