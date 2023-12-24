@@ -123,6 +123,7 @@ window.addEventListener('load', function() {
 
 
 
+
 window.addEventListener('scroll',reveal);
 
 function reveal(){
