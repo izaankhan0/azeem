@@ -441,9 +441,21 @@ html {
 }
 
 .menu-icon {
-  font-size: 22px;
+  /* font-size: 22px; */
   visibility: hidden;
+margin-right: 8px;
+margin-top: 5px;
+
+
 }
+.menu-line{
+  width:40px;
+  height: 4px;
+  background-color: white;
+  margin: 8px 0px;
+  border-radius: 10px;
+}
+
 
 .hidden-menu {
   position: fixed;
