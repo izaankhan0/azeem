@@ -483,13 +483,10 @@ margin-top: 5px;
   width: 100%;
   position: fixed;
   z-index: 1000;
-  opacity: 1;
-  transition: opacity 400ms ease; /* Transition effect */
+  transition: 1s ease;
+
 }
 
-.preloader-hidden {
-  opacity: 0 !important; /* Ensure the transition overrides other styles */
-}
 
 
 

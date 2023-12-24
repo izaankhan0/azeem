@@ -117,10 +117,9 @@ function scrollToTop() {
 window.addEventListener('load', function() {
   const loader = document.querySelector('#preloader');
   setTimeout(function() {
-    loader.classList.add('preloader-hidden');
+    loader.style.display = 'none';
   }, 2000);
 });
-
 
 
 
