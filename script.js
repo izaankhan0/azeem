@@ -115,9 +115,9 @@ function scrollToTop() {
 
 
 const loader = document.querySelector('#preloader')
-window.addEventListener('load',function(){
+window.addEventListener('load',setInterval(function(){
   loader.style.display="none"
-})
+},2500))
 
 
 
