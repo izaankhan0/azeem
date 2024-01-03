@@ -620,7 +620,7 @@ h7{
 .work{
   display: flex;
   flex-direction: row;
-  margin: 65px 20px;
+  margin: 80px 20px 120px 20px;
   align-items: center;
 }
 .work > img{
@@ -635,7 +635,7 @@ h7{
 .work > p{
   width: 50%;
   font-size: 22px;
-  padding: 0px 40px;
+  padding: 0px 30px;
 }
 .quoteM{
   font-size: 75px;
@@ -643,10 +643,11 @@ h7{
 
 .rtr{
   margin-left: 90%;
+}
+.trt{
   position: relative;
   top: 30px;
 }
-
 
 
 

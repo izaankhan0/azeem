@@ -1,3 +1,24 @@
+@media (max-width: 1160px){
+    .work1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .work1 > p{
+        position: relative;
+        bottom: 40px;
+    }
+    .carousal{
+        margin: 5% 10%;
+    }
+    .work > p{
+        width: 80%;
+        font-size: 22px;
+        margin-top: 4px;
+      }
+}
+
+
 @media (max-width: 1020px){
     .about-details{
         flex-direction: column;
@@ -46,7 +67,26 @@
     h2{
         font-size: 40px;
     }
+    .work2{
+        flex-direction: column;
+    }
+    .work2 > img{
+        width: 80%;
+
+    }
+    
 }
+
+
+@media(max-width:860px){
+
+    .work3 > p{
+        font-size: 19px;
+    }
+
+}
+
+
 
 @media (max-width: 690px){
     nav{
@@ -138,12 +178,52 @@
     }
 }
 
+@media (max-width: 475px){
+    .work4{
+        flex-direction: column;
+    }
+    .work4 >img{
+        width: 90%;
+    }
+}
+
 @media (max-width: 440px){
     .rev-text{
         font-size: 17.5px;
         line-height: 30px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .work > p{
+        font-size: 20px;
+      }
+}
+@media (max-width: 550px){
+    .work > p{
+        font-size: 15px;
+      }
+}
+@media (max-width: 720px){
+    .work3 > p{
+        font-size: 15px;
+      }
+}
+@media (max-width: 580px){
+    .work3{
+flex-direction: column;
+      }
+      .work3 >img{
+        width: 90%;
+      }
+      .work3 >p{
+        padding-left: 0;
+        padding-right: 0;
+      }
+}
+
+@media (max-width: 600px){
+    .work4 >p{
+        font-size: 17px;
     }
 }
 
