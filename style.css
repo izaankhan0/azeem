@@ -604,4 +604,50 @@ margin-top: 5px;
 }
 
 
+
+h7{
+  text-align: center;
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0px auto;
+}
+.heading7{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.work{
+  display: flex;
+  flex-direction: row;
+  margin: 65px 20px;
+  align-items: center;
+}
+.work > img{
+  width: 50%;
+}
+.carousal > img{
+  width: 100%;
+}
+.work2, .work4{
+  flex-direction: row-reverse;
+}
+.work > p{
+  width: 50%;
+  font-size: 22px;
+  padding: 0px 40px;
+}
+.quoteM{
+  font-size: 75px;
+}
+
+.rtr{
+  margin-left: 90%;
+  position: relative;
+  top: 30px;
+}
+
+
+
+
 /* website styled by izaan khan */
