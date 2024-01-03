@@ -141,4 +141,17 @@ function reveal(){
     }
   }
 }
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselImages = document.querySelectorAll('.carousel img');
+  let currentImageIndex = 0;
 
+  function showNextImage() {
+    carouselImages.forEach(img => {
+      img.style.display = 'none';
+    });
+    currentImageIndex = (currentImageIndex + 1) % carouselImages.length;
+    carouselImages[currentImageIndex].style.display = 'block';
+  }
+
+  setInterval(showNextImage, 5000); // Change image every 5 seconds
+});
