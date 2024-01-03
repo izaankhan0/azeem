@@ -141,17 +141,28 @@ function reveal(){
     }
   }
 }
-document.addEventListener('DOMContentLoaded', function() {
-  const carouselImages = document.querySelectorAll('.carousel img');
-  let currentImageIndex = 0;
 
-  function showNextImage() {
-    carouselImages.forEach(img => {
-      img.style.display = 'none';
-    });
-    currentImageIndex = (currentImageIndex + 1) % carouselImages.length;
-    carouselImages[currentImageIndex].style.display = 'block';
-  }
 
-  setInterval(showNextImage, 5000); // Change image every 5 seconds
-});
+const images = document.querySelectorAll('.carousal-holder img');
+let currentIndex = 0;
+
+function showImage(index) {
+  images.forEach((image, i) => {
+    if (i === index) {
+      image.style.display = 'block';
+    } else {
+      image.style.display = 'none';
+    }
+  });
+}
+
+function nextImage() {
+  currentIndex = (currentIndex + 1) % images.length;
+  showImage(currentIndex);
+}
+
+// To display the first image initially
+showImage(currentIndex);
+
+// Automatically cycle through images every few seconds
+setInterval(nextImage, 3000); // Change 3000 to adjust the time between image changes (in milliseconds)
