@@ -118,7 +118,7 @@ window.addEventListener('load', function() {
   const loader = document.querySelector('#preloader');
   setTimeout(function() {
     loader.style.display = 'none';
-  }, 2000);
+  }, 10);
 });
 
 
