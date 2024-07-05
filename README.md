@@ -1,5 +1,3 @@
-Website for my good friend Abdul Azeem Makarim!
-took about 1 and a half day to fully make :)
-
+Made a portfolio website with a dark theme and smooth animations for Mr. Abdul Azeem
 check out my website at
-izaankhan0.github.io/com
+izaankhan0.github.io/portfolio
